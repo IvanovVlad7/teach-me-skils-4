@@ -5,97 +5,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Вход на сайт</title>
 </head>
-<body>
-    
-    <header class="header">
-        <img class="logo" src="./img/MoGo.png" alt="logo">
 
-        <nav class="navigation">
-            <ul>
-                <li>About</li>
-                <li>Service</li>
-                <li>Work</li>
-                <li>Blog</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+<body>
+    <header class="header">
+        <div class="go-back">
+            <div class="go-back-arrow"></div>
+            <span class="go-back-info">Продолжить выбор</span>
+        </div>
+
+        <p class="contact-info">
+            <span class="phone-description">Наш телефон</span>
+            <span class="phone-number">
+                +996 705 188 955
+            </span>
+            <span class="phone-number">
+                +996 555 188 955
+            </span>
+            <span class="work-hours">
+                <img src="./clock.png" alt="clock">
+                работаем с 10:00 до 00:00
+            </span>
+        </p>
     </header>
 
-    <main>
-        <section class="welcome">
-            <div class="welcome__content">
-                <h3>Creative Template</h3>
-                <h1>Welcome to MoGo</h1>
-                <div class="welcome__content__separater"></div>
-                <button class="welcome__content__button">LEARN MORE</button>
-                <div class="welcome__content__menu">
-                    <div 
-                        id="menu-item-intro"
-                        class="welcome__content__menu__item"
-                    >
-                        <h4>01 <span>INTRO</span></h4>
-                    </div>
-                    <div 
-                        id="menu-item-work"
-                        class="welcome__content__menu__item"
-                    >
-                        <h4>02<span>WORK</span></h4>
-                    </div>
-                    <div
-                        id="menu-item-about" 
-                        class="welcome__content__menu__item"
-                    >
-                        <h4>03<span>ABOUT</span></h4>
-                    </div>
-                    <div 
-                        id="menu-item-contacts" 
-                        class="welcome__content__menu__item"
-                    >
-                        <h4>04<span>CONTACTS</span></h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="about">
-            <div class="about__content">
-                <h2>what we do</h2>
-                <h3> STORY ABOUT IS</h3>
-                <div class="about__content__separater"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu facilisis sed venenatis lacus. Eget sit ridiculus facilisi amet. Dis sapien ipsum enim dui fermentum viverra dolor sit. Aliquet congue sit fermentum risus feugiat.</p>
-                <div class="about__content__images"> 
-                    <img src="./img/1photo.png" alt="creater">
-                    <img src="./img/2photo.png"  alt="house">
-                    <img src="./img/3photo.png"  alt="home">
-                </div>
-            </div>
-        </section>
-        <section class="numbers">
-            <div class="numbers__content">
-                <div class="numbers__content__item">
-                    <h3>42</h3>
-                    <p>lorem ipsum </p>
-                </div>
-                <div class="numbers__content__item">
-                    <h3>123</h3>
-                    <p>lorem ipsum </p>
-                </div>
-                <div class="numbers__content__item">
-                    <h3>15</h3>
-                    <p>lorem ipsum </p>
-                </div>
-                <div class="numbers__content__item">
-                    <h3>99</h3>
-                    <p>lorem ipsum </p>
-                </div>  <div class="numbers__content__item">
-                    <h3>24</h3>
-                    <p>lorem ipsum </p>
-                </div>
-            </div> 
-        </section>
-    </main>
 
+    <section class="main-info">
+        <section class="main-info__form">
+            <h2>Ваши данные</h2>
+            <form>
+                <div class="main-info__form__content">
+                    <div class="main-info__form__content__column">
+                        <div class="main-info__form__content__column__item">
+                            <input type="tel" placeholder="Телефон">
+                            <input type="text" placeholder="Имя">
+                        </div>
+                        <div class="main-info__form__content__column__item">
+                            <button class="orange-button"> 
+                                <img class="image-button" src="money.png"> 
+                                Наличными
+                            </button>
+                            <button class="white-button"> 
+                                <img class="image-button" src="wallet.png">
+                                Картой
+                            </button>
+                        </div>
+                        <div class="main-info__form__content__column__item">
+                            <div>
+                                <input type="checkbox" checked>
+                                <label for="scales">подготовить сдачу с</label>
+                                <input type="tel" placeholder="cумма">
+                            </div>    
+                        </div>
+                        <div class="main-info__form__content__column__item">
+                            <input type="tel" placeholder="комментрий к заказу">
+                        </div>
+                        <div class="main-info__form__content__column__item">
+                           <p>Палочки+соусник обычные</p>  <p>-10<div class="plus">+</div></p>
+                        </div>
+                        <div class="main-info__form__content__column__item">
+                            <p>Палочки+соусник обычные</p>  <p>-10 <div class="plus">+</div></p>
+                        </div>
+                        <div class="main-info__form__content__column__item">
+                            <input type="tel" placeholder="введите промокод">
+                        </div>
+                    </div>
+                    <div class="main-info__form__content__column">
+                        <div class="main-info__form__content__column__item">
+                            <button class="orange-button"> Курьером</button>
+                            <button class="image-button"> </button class="white-button">Самовывоз</button>
+                        </div>
+                        <div class="main-info__form__content__column__item">
+                            <input type="tel" placeholder="улица">
+                            <input type="tel" placeholder="дом">
+                            
+                         </div>
+                         <div class="main-info__form__content__column__item">
+                            <input type="tel" placeholder="кв">
+                            <input type="tel" placeholder="подьезд">
+                            <input type="tel" placeholder="этаж">
+                            <input type="tel" placeholder="код">
+                        </div>
+    
+                        <div class="main-info__form__content__column__item">
+                            <button class="orange-button"> На сейчас</button>
+                            <button class="white-button">"> На время</button>
+                        </div>
+    
+                        <div class="main-info__form__content__column__item">
+                            <input type="tel" placeholder="E-mail(необязательно)">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit">Оформить заказ</button>   
+                </div>
+            </form>
+            <p>
+                Нажимая на кнопку Оформить заказ, 
+                Вы подтверждаете свое согласие на обработку 
+                персональных данных в соответствии с Публичной оффертой
+            </p>
+        </section>
+    </section>
 </body>
+
 </html>
