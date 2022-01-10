@@ -1,0 +1,547 @@
+@import url("fonts/roboto/stylesheet.css");
+
+header{
+    margin-bottom: 75px;
+    padding-left: 180px;
+    background: #F4F9E2;
+    background-image: url(images/shedow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+    img{
+        position: absolute;
+        right:100px;
+    }
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .nav{
+        display: flex;
+        gap: 50px;
+        .border{
+            border-bottom: 1px solid #22356F;
+            padding: 4px;
+        }
+
+        li{
+            list-style-type: none;
+            font-family: Larsseit;
+            font-size: 14px;
+            line-height: 16px;
+            color: #22356F;
+        }
+    }
+    h2{
+        font-family: Larsseit;
+        font-size: 24px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+        color: #62D0DF;
+    }
+
+    button{
+        background: #62D0DF;
+        border-radius: 50px;
+        font-family: Larsseit;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        border: none;
+        padding: 20px 30px;
+
+    }
+}
+
+
+.way{
+    
+
+    &__section{
+        margin-top: 241px;
+        
+        h3{
+            font-family: Larsseit;
+            font-size: 24px;
+            line-height: 27px;
+            letter-spacing: -0.035em;
+            color: #62D0DF;
+
+        }
+        h1{
+            font-family: Larsseit;
+            font-size: 48px;
+            line-height: 53px;
+            letter-spacing: -0.035em;
+            color: #22356F;
+        }
+
+        p{
+            font-family: Larsseit;
+            font-size: 24px;
+            line-height: 42px;
+            color: #22356F;
+            
+        }
+
+        &__yellow-button{
+            font-family: Larsseit;
+            font-size: 16px;
+            line-height: 23px;
+            background: #F9B640;
+            color: #FFFFFF;
+            width: 150px;
+            height: 50px;
+            border: none;
+
+        }
+
+        &__white-button{
+            font-family: Larsseit;
+            font-size: 16px;
+            line-height: 23px;
+            color: #FAB63E;
+            width: 150px;
+            height: 43px;
+            background: transparent;
+            border: none;
+
+
+        }
+
+
+
+    }
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    background: #62D0DF;
+    margin-bottom: 150px;
+    padding-left: 180px;
+
+    &__wrapper{
+        
+        p{
+            
+        font-family: Larsseit;
+        font-size: 24px;
+        line-height: 35px;
+        color: #FFFFFF;
+        padding-top: 50px; 
+
+        span{
+
+        font-family: Larsseit;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+
+        }
+
+        }
+
+        h2{
+
+        font-family: Larsseit;
+        font-size: 36px;
+        line-height: 27px;
+        color: #FFFFFF;
+        padding-top: 151px;
+
+        }
+    }
+    
+}
+
+
+.product{
+    
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding-left:150px;
+        
+        
+        h3{
+        font-family: Larsseit;
+        font-size: 16px;
+        line-height: 23px;
+        color: #22356F;
+        }
+
+        p{
+            font-family: Larsseit;
+            font-size: 24px;
+            line-height: 34px;
+            color: #22356F;
+            padding-right: 450px;
+
+        }
+        
+    }
+
+    &__about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Larsseit;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(34, 53, 111, 0.5);
+    }
+}
+
+
+.exercise{
+    margin-bottom: 110px;
+    
+    
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        
+        li{
+            width: 100%;
+            height: 360px;
+            color: #FFFFFF;
+            font-family: Larsseit;
+            font-size: 32px;
+            line-height: 34px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            section{
+                border-radius: 50%;
+                background: #F9B640;
+                width: 9px;
+                height: 9px;
+                position: relative;
+                right: 220px;
+                top: 5px;
+            }
+            
+            p{
+                border-top: 1px solid #FFFFFF;
+                padding-top: 20px;
+            }
+        }
+
+        .blue-box{
+            background: #0052C1;
+            
+            
+        }
+        .purple-box{
+            background: #FFE2DE;
+            
+        }
+        .green-box{
+            background: #C4E769;
+            
+        }
+        .cloudy-box{
+            background: #62D0DF;
+        }
+        
+
+    }
+
+}
+
+.sport{
+    
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        li{
+        width: 100%;
+        height: 480px;
+        font-family: Larsseit;
+        font-size: 32px;
+        line-height: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+
+        section{
+            border-radius: 50%;
+            background: #F9B640;
+            width: 9px;
+            height: 9px;
+            position: relative;
+            right: 165px;
+            top: 5px;
+        }
+        }
+
+        p{
+        border-top: 1px solid #FFFFFF;
+        padding-top: 20px;
+        
+        }
+        
+        .blue_square{ 
+            background: #22356F;
+    
+        }
+    
+        
+        .cloudy_square{
+            background: #0052C1;
+        }
+        .strawberry_square{
+            background-image:url(images/nutrition.png);
+    
+        }
+
+    }
+
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 22px;
+        
+        li{
+        width: 100%;
+        height: 480px;
+        font-family: Larsseit;
+        font-size: 32px;
+        line-height: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+
+        section{
+            border-radius: 50%;
+            background: #F9B640;
+            width: 9px;
+            height: 9px;
+            margin-right: 10px;
+            position: relative;
+            right: 130px;
+            top: 5px;
+        }
+        }
+    }
+
+        p{
+            border-top: 1px solid #FFFFFF;
+            padding-top: 20px;
+        }
+        
+        .lake_square{
+            background: #62D0DF;    
+        }
+            
+        .grey_square{
+            background: #DEE1FF;
+        }
+
+        .violet_square{
+            background: #8F00FF;
+        }
+    }
+
+
+
+
+
+
+
+
+.live{
+    margin-bottom: 40px;
+    h2{
+    font-family: Larsseit;
+    font-size: 28px;
+    line-height: 33px;
+    color: #22356F;
+
+    }
+    
+    p{
+        font-family: Larsseit;
+        font-size: 16px;
+        line-height: 25px;
+        color: rgba(34, 53, 111, 0.5);
+    }
+    
+    &__top{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 30px;
+
+    
+    }
+
+    &__bottom{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+}
+
+
+
+.background{
+    display: flex;
+    &__live{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        h3{
+        font-family: Larsseit;
+        font-size: 16px;
+        line-height: 12px;
+        color: #22356F;
+        padding-top: 30px;
+        padding-left: 120px;
+        }
+
+        p{
+        font-family: Larsseit;
+        font-size: 36px;
+        line-height: 53px;
+        color: #22356F;
+        padding-top: 30px;
+        padding-left: 120px;
+        }
+
+        button{
+        font-family: Larsseit;
+        font-size: 16px;
+        line-height: 23px;
+        color: #FAB63E;
+        border: none;
+        background: transparent;
+        border: none;
+        padding-right: 400px;
+        }
+
+        span{
+        font-family: Larsseit;
+        letter-spacing: -0.035em;
+        color: #62D0DF;
+        }
+    }
+}
+
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    background: #22356F;
+    padding-left: 180px;
+
+    &__talk{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 100px;
+
+
+        h3{
+        font-family: Larsseit;
+        font-size: 16px;
+        line-height: 12px;
+        color: #FFFFFF;
+        }
+
+        h2{
+        font-family: Larsseit;
+        font-size: 64px;
+        line-height: 94px;
+        color: #FFFFFF;
+        padding-top: 50%;
+
+        }
+
+        p{
+            font-family: Larsseit;
+            font-size: 36px;
+            line-height: 53px;
+            color: #FFFFFF
+
+        }
+
+        button{
+            font-family: Larsseit;
+            font-size: 16px;
+            line-height: 23px;
+            color: #62D0DF;
+            background: transparent;
+            border: none;
+            display: flex;
+            padding-bottom: 60px;
+        }
+    }
+}
+
+
+
+footer{
+
+    .bottom{
+        color: #FFFFFF;
+        background: #62D0DF;
+        height: 80px;
+        margin: 0;
+        padding-left: 104px;
+        display: flex;
+        align-items: center;
+    }
+
+    section{
+        display: flex;
+
+        .setting{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 100px
+            
+        }
+
+        
+        .timetable{
+            padding-left: 75px;
+            
+
+            h3{
+                font-family: Larsseit;
+                font-size: 14px;
+                line-height: 11px;
+                color: #22356F;
+
+            }
+
+            p{
+                font-family: Larsseit;
+                font-size: 14px;
+                line-height: 23px;
+                color: rgba(34, 53, 111, 0.5);
+            }
+
+            span{
+                color: blue;
+            }
+        }
+    }
+    
+}
